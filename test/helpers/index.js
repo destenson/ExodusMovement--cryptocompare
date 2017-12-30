@@ -1,10 +1,10 @@
 'use strict'
 
 // NOT_USD_TRADABLE is a cryptocurrency which does not trade directly with USD.
-// This value is used in testing tryConversion. Currently, this is set to MRSA.
-// If MRSA trades directly with USD in the future, tests will fail.
+// This value is used in testing tryConversion. Currently, this is set to 42.
+// If 42 trades directly with USD in the future, tests will fail.
 // In that case, change this value:
-exports.NOT_USD_TRADABLE = 'MRSA'
+exports.NOT_USD_TRADABLE = '42'
 
 exports.testTryConversion = function (promise, t) {
   t.plan(1)
